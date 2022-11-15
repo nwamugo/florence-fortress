@@ -5,7 +5,9 @@ import { PlacardBoardComponent } from './placard-board/placard-board.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PlacardBoardComponent
+  ],
   imports: [
     CommonModule
   ]
