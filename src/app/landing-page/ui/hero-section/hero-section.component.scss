@@ -1,0 +1,125 @@
+main {
+  background-image: linear-gradient(rgba(205, 119, 195, .8), rgba(205, 119, 195, .8)), url(/assets/img/woman-pointing.jpg);
+  background-color: #cd77c3;
+  background-size: cover;
+  background-position: bottom;
+  width: 100vw;
+  height: 100vh;
+
+  div.social-media {
+    position: absolute;
+    top: 36.3rem;
+    left: 64rem;
+
+
+    a > img {
+      width: 4.7rem;
+      height: 4.9rem;
+      filter: invert(28%) sepia(26%) saturate(7087%) hue-rotate(311deg) brightness(93%) contrast(95%);
+
+      background: #fff;
+      border-radius: .375rem;
+      border-style: solid;
+      border-width: .125rem;
+      color: #212121;
+      padding: .875rem 1.125rem;
+      transform: scale(1);
+      transition: transform .2s;
+      touch-action: manipulation;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+header {
+  position: absolute;
+  left: 8.1rem;
+  top: 49.2rem;
+
+  h1 {
+    color: #b204b6;
+    font-size: 12.8rem;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+  }
+
+  span:first-child {
+    font-family: 'NovaMono', sans-serif;
+    font-weight: 400;
+  }
+
+  span:last-child {
+    display: block;
+    margin-top: -3.5rem;
+  }
+}
+
+div.tagline {
+  position: absolute;
+  left: 13.5rem;
+  top: 43.8rem;
+  height: 6.6rem;
+  padding: 1.3rem 1.2rem 2.4rem 1.5rem;
+
+  background: #f0f3fa;
+  border-radius: 2rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  letter-spacing: 0.19rem;
+}
+
+p {
+  font-size: 7rem;
+}
+
+div.placard {
+  padding-left: 5.5rem;
+  padding-top: 7.1rem;
+
+  button.join-us {
+    background: #FFC2C2;
+    border: 2px solid #F04465;
+    box-shadow: -1rem 1.3rem 5rem -.1rem #F04465,;
+    cursor: pointer;
+    font: inherit;
+    line-height: 1;
+    padding: .3em .2em;
+    position:relative;
+    transition: all 0.3s ease;
+  }
+
+  button.join-us:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    box-shadow:
+      -.7rem 0 1rem -.2rem #F04465,
+      -.4rem 0 .5rem 0 #f04465,
+      .7rem .7rem 1rem 0 #F04465,
+      .4rem .4rem .5rem 0 #F04465;
+    transition: all .3s ease;
+  }
+
+  button.join-us:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  button.join-us:active {
+    top: .2rem;
+    right: .2rem;
+  }
+}
+
+a {
+  cursor: pointer;
+}

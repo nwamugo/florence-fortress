@@ -1,14 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LandingUiModule } from '../ui/landing-ui.module';
-
-
+import { LandingContainer } from './landing.container';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    LandingUiModule
-  ]
+  declarations: [LandingContainer],
+  imports: [CommonModule, LandingUiModule],
+  exports: [LandingContainer],
 })
-export class LandingContainerModule { }
+export class LandingContainerModule {}
