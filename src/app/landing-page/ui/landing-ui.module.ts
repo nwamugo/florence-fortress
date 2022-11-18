@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PlacardBoardComponent } from './placard-board/placard-board.component';
-import { HeroSectionComponent } from './hero-section/hero-section.component';
-import { HeroBeltComponent } from './hero-belt/hero-belt.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
+import { PlacardBoardComponent } from './components/placard-board/placard-board.component';
+import { HeroSectionComponent } from './components/hero-section/hero-section.component';
+import { HeroBeltComponent } from './components/hero-belt/hero-belt.component';
+import { MissionSectionComponent } from './components/mission-section/mission-section.component';
+import { LandingPageComponent } from './landing-page.component';
 
 
 
@@ -12,7 +13,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     PlacardBoardComponent,
     HeroSectionComponent,
     HeroBeltComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    MissionSectionComponent
   ],
   imports: [
     CommonModule

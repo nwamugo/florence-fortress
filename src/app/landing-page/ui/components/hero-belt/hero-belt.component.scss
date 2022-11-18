@@ -1,7 +1,6 @@
 div.belt {
-  height: 19.1rem;
   background: linear-gradient(180deg, #d9d9d9 30.21%, rgba(235, 159, 232, .93) 100%);
-  width: 100vw;
+  width: 144rem;
 }
 
 ul {
@@ -13,8 +12,9 @@ li {
   text-align: center;
   font-weight: 400;
   font-size: 3.2rem;
-  margin-left: 2.5rem;
+  margin-left: .5rem;
   margin-top: 5.7rem;
+  margin-bottom: 9.6rem;
 
   &:first-child {
     margin-left: 2.9rem;
@@ -22,11 +22,7 @@ li {
 
   &:nth-child(2) {
     width: 21.3rem;
+    margin-bottom: 5.8rem;
   }
 }
 
-:host {
-  position: absolute;
-  top: 83.3rem;
-  left: 0;
-}

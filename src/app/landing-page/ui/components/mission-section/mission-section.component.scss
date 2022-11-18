@@ -1,0 +1,84 @@
+section {
+  width: 144rem;
+  height: 70.6rem;
+  background: rgba(242, 167, 167, 0.4);
+  position: relative;
+  padding-top: 2rem;
+}
+
+
+div.placard {
+  padding-left: 5.5rem;
+  padding-top: 7.1rem;
+
+  p {
+    font-size: 7rem;
+  }
+
+  button.reach-us {
+    background: #FFC2C2;
+    border: none;
+    box-shadow: -1rem 1.3rem 5rem -.1rem #F04465,;
+    cursor: pointer;
+    font-size: 7rem;
+    line-height: 1;
+    padding: .3em .2em;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    position:relative;
+    transition: all 0.3s ease;
+  }
+
+  button.reach-us:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    box-shadow:
+      -.7rem 0 1rem -.2rem #F04465,
+      -.4rem 0 .5rem 0 #f04465,
+      .7rem .7rem 1rem 0 #F04465,
+      .4rem .4rem .5rem 0 #F04465;
+    transition: all .3s ease;
+  }
+
+  button.reach-us:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  button.reach-us:active {
+    top: .2rem;
+    right: .2rem;
+  }
+}
+
+
+div.mission-statement {
+  position: absolute;
+  top: 10.4rem;
+
+  h3 {
+    color: #B204B6;
+    font-weight: 400;
+    font-size: 7rem;
+    letter-spacing: 0.03em;
+    margin-left: 25.5rem;
+  }
+
+  p.statement {
+    color: #B204B6;
+    font-family: 'NovaMono';
+    font-weight: 400;
+    font-size: 4rem;
+    letter-spacing: 0.03em;
+    margin-left: 8.6rem;
+    margin-top: 4.4rem;
+    width: 69.7rem;
+  }
+}
+
+

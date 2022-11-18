@@ -1,43 +1,30 @@
 main {
-  background-image: linear-gradient(rgba(205, 119, 195, .8), rgba(205, 119, 195, .8)), url(/assets/img/woman-pointing.jpg);
+  background-image:
+    linear-gradient(rgba(205, 119, 195, .8), rgba(205, 119, 195, .8)),
+    url(/assets/img/woman-pointing.jpg);
   background-color: #cd77c3;
   background-size: cover;
   background-position: bottom;
-  width: 100vw;
-  height: 100vh;
+  width: 144rem;
+  height: 102.4rem;
+  position: relative;
+}
 
-  div.social-media {
-    position: absolute;
-    top: 36.3rem;
-    left: 64rem;
+div.container {
+  position: relative;
+  padding-top: 10.6rem;
+  min-height: 82.9rem;
+}
 
-
-    a > img {
-      width: 4.7rem;
-      height: 4.9rem;
-      filter: invert(28%) sepia(26%) saturate(7087%) hue-rotate(311deg) brightness(93%) contrast(95%);
-
-      background: #fff;
-      border-radius: .375rem;
-      border-style: solid;
-      border-width: .125rem;
-      color: #212121;
-      padding: .875rem 1.125rem;
-      transform: scale(1);
-      transition: transform .2s;
-      touch-action: manipulation;
-
-      &:hover {
-        transform: scale(1.05);
-      }
-    }
-  }
+a {
+  cursor: pointer;
 }
 
 header {
   position: absolute;
   left: 8.1rem;
   top: 49.2rem;
+  z-index: 2;
 
   h1 {
     color: #b204b6;
@@ -66,20 +53,46 @@ div.tagline {
 
   background: #f0f3fa;
   border-radius: 2rem;
+
+  h4 {
+    font-size: 2.4rem;
+    letter-spacing: 0.19rem;
+  }
 }
 
-h4 {
-  font-size: 2.4rem;
-  letter-spacing: 0.19rem;
-}
+div.social-media {
+  position: absolute;
+  top: 36.3rem;
+  left: 64rem;
 
-p {
-  font-size: 7rem;
+  a > img {
+    width: 4.7rem;
+    height: 4.9rem;
+    filter: invert(28%) sepia(26%) saturate(7087%) hue-rotate(311deg) brightness(93%) contrast(95%);
+
+    background: #fff;
+    border-radius: .375rem;
+    border-style: solid;
+    border-width: .125rem;
+    color: #212121;
+    padding: .875rem 1.125rem;
+    transform: scale(1);
+    transition: transform .2s;
+    touch-action: manipulation;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 }
 
 div.placard {
   padding-left: 5.5rem;
   padding-top: 7.1rem;
+
+  p {
+    font-size: 7rem;
+  }
 
   button.join-us {
     background: #FFC2C2;
@@ -120,6 +133,3 @@ div.placard {
   }
 }
 
-a {
-  cursor: pointer;
-}
