@@ -1,8 +1,8 @@
 main {
   background-image:
-    linear-gradient(rgba(205, 119, 195, .8), rgba(205, 119, 195, .8)),
+    linear-gradient(rgba(237, 0, 140, .8), rgba(255, 194, 194, .8), rgba(205, 119, 195, .8)),
     url(/assets/img/woman-pointing.jpg);
-  background-color: #cd77c3;
+  background-color: #ed008c;
   background-size: cover;
   background-position: bottom;
   width: 144rem;
@@ -27,7 +27,7 @@ header {
   z-index: 2;
 
   h1 {
-    color: #b204b6;
+    color: #ED008C;
     font-size: 12.8rem;
     letter-spacing: 0.03em;
     line-height: 1.2;
@@ -95,7 +95,7 @@ div.placard {
   }
 
   button.join-us {
-    background: #FFC2C2;
+    background: #ffc2c2;
     border: 2px solid #F04465;
     box-shadow: -1rem 1.3rem 5rem -.1rem #F04465,;
     cursor: pointer;

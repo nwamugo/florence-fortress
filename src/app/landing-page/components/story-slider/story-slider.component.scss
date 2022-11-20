@@ -1,0 +1,19 @@
+p {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #ed008c;
+  background-image: linear-gradient(transparent 10%, rgba(241, 235, 241, 0.2), rgba(255, 194, 194, .2));
+  text-align: center;
+  line-height: 1.7;
+}
+
+div.img-container {
+  margin-left: 28.9rem;
+  margin-bottom: 2.9rem;
+
+  img {
+    width: 16.3rem;
+    background: #fefefe;
+    border-radius: 2rem;
+  }
+}

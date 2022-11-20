@@ -1,0 +1,86 @@
+section {
+  background: #F2A7A7;
+  width: 144rem;
+  height: 102.4rem;
+  padding-top: 13.1rem;
+  position: relative;
+}
+
+div.placard {
+  padding-left: 5.5rem;
+  padding-top: 7.1rem;
+
+  p {
+    font-family: "NovaMono", sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: .03em;
+  }
+
+  button.support-us {
+    background: #FFC2C2;
+    border: 2px solid #F04465;
+    box-shadow: -1rem 1.3rem 5rem -.1rem #F04465,;
+    cursor: pointer;
+    font-size: 7rem;
+    line-height: 1;
+    padding: .3em .2em;
+    margin: 3rem;
+    position:relative;
+    transition: all 0.3s ease;
+  }
+
+  button.support-us:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    box-shadow:
+      -.7rem 0 1rem -.2rem #F04465,
+      -.4rem 0 .5rem 0 #f04465,
+      .7rem .7rem 1rem 0 #F04465,
+      .4rem .4rem .5rem 0 #F04465;
+    transition: all .3s ease;
+  }
+
+  button.support-us:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  button.support-us:active {
+    top: .2rem;
+    right: .2rem;
+  }
+}
+
+button.options {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  bottom: 8.1rem;
+  left: 25.2rem;
+  font-weight: 400;
+  font-size: 4rem;
+  padding: 2.1rem 2.3rem 2.1rem;
+  border-radius: 2rem;
+  background: #fefefe;
+  box-shadow:
+    0 -.4rem .9rem rgba(29, 24, 23, 0.5),
+    0 .4rem .4rem rgba(29, 24, 23, 0.5);
+
+  img {
+    width: 2rem;
+  }
+}
+
+div.options-container {
+  position: absolute;
+  top: 4.9rem;
+  left: 3.1rem;
+  width: 76.2rem;
+  height: 76rem;
+}

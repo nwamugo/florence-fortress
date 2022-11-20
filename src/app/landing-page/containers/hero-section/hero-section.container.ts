@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-hero-section',
-  templateUrl: './hero-section.component.html',
-  styleUrls: ['./hero-section.component.scss']
+  templateUrl: './hero-section.container.html',
+  styleUrls: ['./hero-section.container.scss']
 })
-export class HeroSectionComponent implements OnInit {
+export class HeroSectionContainer implements OnInit {
 
   constructor() { }
 
