@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.container.html',
-  styles: [ 'div { width: 144rem; position: relative; margin: 0 auto; }']
+  styleUrls: ['./landing-page.container.scss']
 })
 export class LandingPageContainer implements OnInit {
 

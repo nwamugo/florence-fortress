@@ -1,5 +1,7 @@
 section {
   background: #F2A7A7;
+  background: rgb(235, 0, 137, 0.5);
+  background: #D7869F;
   width: 144rem;
   height: 102.4rem;
   padding-top: 13.1rem;
@@ -61,16 +63,16 @@ button.options {
   position: absolute;
   border: none;
   cursor: pointer;
-  bottom: 8.1rem;
-  left: 25.2rem;
+  bottom: 12.1rem;
+  left: 27.8rem;
   font-weight: 400;
   font-size: 4rem;
   padding: 2.1rem 2.3rem 2.1rem;
   border-radius: 2rem;
   background: #fefefe;
   box-shadow:
-    0 -.4rem .9rem rgba(29, 24, 23, 0.5),
-    0 .4rem .4rem rgba(29, 24, 23, 0.5);
+    0 -.1rem .9rem rgba(29, 24, 23, 0.5),
+    0 .1rem .4rem rgba(29, 24, 23, 0.5);
 
   img {
     width: 2rem;

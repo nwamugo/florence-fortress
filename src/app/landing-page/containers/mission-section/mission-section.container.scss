@@ -1,9 +1,9 @@
 section {
   width: 144rem;
-  height: 70.6rem;
-  background: rgba(242, 167, 167, 0.4);
+  height: 80.4rem;
+  background: #F3B3AA;
   position: relative;
-  padding-top: 2rem;
+  padding-top: 6rem;
 }
 
 
@@ -16,7 +16,8 @@ div.placard {
   }
 
   button.reach-us {
-    background: #FFC2C2;
+    background: #df678c;
+    color: #4c0c32;
     border: none;
     box-shadow: -1rem 1.3rem 5rem -.1rem #F04465,;
     cursor: pointer;
@@ -59,7 +60,7 @@ div.placard {
 
 div.mission-statement {
   position: absolute;
-  top: 10.4rem;
+  top: 14.4rem;
 
   h3 {
     color: #ED008C;
@@ -70,7 +71,7 @@ div.mission-statement {
   }
 
   p.statement {
-    color: #ED008C;
+    color: #bf0a75;
     font-family: 'NovaMono';
     font-weight: 400;
     font-size: 4rem;
