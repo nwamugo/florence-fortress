@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LandingPageContainer } from '../landing-page.container';
+import { LandingPageContainer } from './landing-page.container';
 
 describe('LandingPageContainer', () => {
   let component: LandingPageContainer;
