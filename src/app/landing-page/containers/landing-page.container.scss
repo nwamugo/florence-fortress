@@ -1,0 +1,9 @@
+div.grid-container {
+  display: grid;
+  grid-template-columns: minmax(min-content, .8fr) minmax(min-content, 4fr);
+  grid-template-areas: "sidebar main";
+}
+
+div.main {
+  position: relative;
+}
