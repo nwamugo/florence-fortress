@@ -1,0 +1,13 @@
+<section>
+  <div class="gallery">
+    <app-gallery-grid-item class="item-1">
+      <h4 class="gallery-name">Story <br>Pictures</h4>
+    </app-gallery-grid-item>
+    <app-gallery-grid-item
+      *ngFor="let item of gridItems; let i = index"
+      [class]="getItemClassName(i)"
+    >
+      <app-image-card [picture]="chooseImage(i)"></app-image-card>
+    </app-gallery-grid-item>
+  </div>
+</section>

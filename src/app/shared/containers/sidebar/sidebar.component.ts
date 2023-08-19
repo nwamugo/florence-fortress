@@ -1,11 +1,14 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
+import {
+  AfterViewInit, Component, ElementRef,
+  OnDestroy, OnInit, ViewChild
+} from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss'],
 })
-export class SidebarComponent implements OnInit, AfterViewInit {
+export class SidebarComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('alternatingText') alternatingTextRef: ElementRef<HTMLParagraphElement> | undefined;
   markups: string[] = [];
   markupsIndex = 0;
@@ -37,6 +40,13 @@ export class SidebarComponent implements OnInit, AfterViewInit {
         false
       );
     }
+  }
+
+  ngOnDestroy(): void {
+    this.alternatingTextRef?.nativeElement.removeEventListener(
+      'animationiteration',
+      this.listener.bind(this)
+    )
   }
 
   listener(event: AnimationEvent) {

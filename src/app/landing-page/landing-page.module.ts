@@ -6,6 +6,7 @@ import { HeroSectionContainer } from './containers/hero-section/hero-section.con
 import { MissionSectionContainer } from './containers/mission-section/mission-section.container';
 import { AboutSectionContainer } from './containers/about-section/about-section.container';
 import { SharedModule } from '../shared/shared.module';
+import { GallerySectionContainer } from './containers/gallery-section/gallery-section.container';
 
 @NgModule({
   declarations: [
@@ -13,8 +14,9 @@ import { SharedModule } from '../shared/shared.module';
     AboutSectionContainer,
     HeroSectionContainer,
     MissionSectionContainer,
+    GallerySectionContainer,
   ],
   imports: [CommonModule, LandingUiModule, SharedModule],
-  exports: [LandingPageContainer],
+  exports: [LandingPageContainer, GallerySectionContainer],
 })
 export class LandingPageModule {}
