@@ -1,0 +1,40 @@
+div.container {
+  position: relative;
+  height: 100%;
+}
+
+div.paper-tape {
+  background: rgba(255, 255, 255, .4);
+  width: 12rem;
+  height: 4rem;
+  position: absolute;
+  top: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+div.shadow {
+  position: relative;
+  background: #DAB7CD;
+  height: 100%;
+}
+
+div.shadow:after {
+  content: "";
+  z-index: -2;
+  position: absolute;
+  top: 70%;
+  left: 1.2rem;
+  right: 1.2rem;
+  bottom: 0;
+  box-shadow: 0 0 .5rem 1rem #DAB7CD;
+  border-radius: 450px / 15px
+}
+
+img.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

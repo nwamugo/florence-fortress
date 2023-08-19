@@ -1,0 +1,24 @@
+section {
+  background: #f8dbe0;
+  position: relative;
+  padding-top: 6rem;
+  z-index: -30;
+}
+
+div.gallery {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: repeat(18, 2.5vw) / repeat(9, 1fr);
+  gap: 2rem;
+  row-gap: 0;
+  padding: 4.5rem;
+}
+
+h4.gallery-name {
+  font-family: 'NovaMono', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  color: #4C0C32;
+  margin-top: 4rem;
+}
