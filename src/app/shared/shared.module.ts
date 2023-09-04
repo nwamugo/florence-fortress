@@ -1,14 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SidebarComponent } from './containers/sidebar/sidebar.component';
-
-
+import { AudioPlayerComponent } from './components/audio-player/audio-player.component';
 
 @NgModule({
-  declarations: [SidebarComponent],
-  imports: [
-    CommonModule
-  ],
-  exports: [SidebarComponent]
+  declarations: [AudioPlayerComponent],
+  imports: [CommonModule],
+  exports: [AudioPlayerComponent],
 })
-export class SharedModule { }
+export class SharedModule {}

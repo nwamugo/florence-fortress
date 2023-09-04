@@ -2,19 +2,24 @@
   <div class="mission-statement">
     <h3>Mission</h3>
     <p class="statement">
-      To create a secure
-      environment for women and
+      To create a safe
+      space for women and
       young girls who are in
       abusive relationships to
-      learn, heal, and thrive.
+      <span>learn</span>, <span>heal</span>, and <span>thrive</span>.
     </p>
   </div>
   <app-placard-board>
     <div class="placard">
       <p>
-        Need to <br> talk to <br> someone?
+        Do you <br>need to <br> talk to <br> someone?
       </p>
-      <button class="reach-us">Send us a message</button>
+      <button
+        class="reach-us"
+        (click)="goToTherapy()"
+      >
+        Book a Therapist
+      </button>
     </div>
   </app-placard-board>
 </section>

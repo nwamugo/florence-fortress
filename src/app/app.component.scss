@@ -1,0 +1,18 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 18.8rem;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: minmax(min-content, .8fr) minmax(min-content, 4fr);
+  grid-template-areas: "sidebar main";
+}
+
+div.main {
+  position: relative;
+}

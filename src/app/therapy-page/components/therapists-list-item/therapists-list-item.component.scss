@@ -1,0 +1,71 @@
+div.item-container {
+  border: .1rem solid #593F62;
+  padding: 1.6rem;
+  width: 50rem;
+  border-radius: 2rem;
+  background: #fcecc9;
+}
+
+div.top-part {
+  display: flex;
+}
+
+div.img-container > img {
+  width: 14rem;
+  height: 14rem;
+}
+
+div.person-details {
+  margin-left: 4rem;
+  position: relative;
+  width: 100%;
+
+  h4 {
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+  }
+
+  ul {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  a.btn-text {
+    font-size: 3rem;
+    margin-top: 1.6rem;
+  }
+}
+
+.btn-text:link,
+.btn-text:visited {
+  margin-top: 1rem;
+  color: #ED008C;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: .1rem solid #c69;
+  padding: .3rem;
+  transition: all .2s;
+}
+
+.btn-text:hover {
+  background-color: #c69;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0,0,0, .15);
+  transform: translateY(-.2rem);
+}
+
+.btn-text:active {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0, .15);
+  transform: translateY(0);
+}
+
+hr {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+p.info {
+  font-size: 1.6rem;
+  color: #2d1e2f;
+  line-height: 1.7;
+}

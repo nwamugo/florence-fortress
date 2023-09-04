@@ -9,9 +9,11 @@ section {
 div.placard {
   padding-left: 5.5rem;
   padding-top: 7.1rem;
+  text-align: center;
 
   p {
-    font-size: 7rem;
+    font-size: 5rem;
+    margin-left: -5.5rem;
   }
 
   button.reach-us {
@@ -52,7 +54,6 @@ div.placard {
   }
   button.reach-us:active {
     top: .2rem;
-    right: .2rem;
   }
 }
 
@@ -74,10 +75,14 @@ div.mission-statement {
     font-family: 'NovaMono';
     font-weight: 400;
     font-size: 4rem;
-    letter-spacing: 0.03em;
     margin-left: 8.6rem;
     margin-top: 4.4rem;
     width: 69.7rem;
+    line-height: 1.7;
+
+    span {
+      font-weight: 700;
+    }
   }
 }
 
