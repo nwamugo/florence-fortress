@@ -1,12 +1,12 @@
 import { LandingUiModule } from './components/landing-ui.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LandingPageContainer } from './containers/landing-page.container';
-import { HeroSectionContainer } from './containers/hero-section/hero-section.container';
-import { MissionSectionContainer } from './containers/mission-section/mission-section.container';
-import { AboutSectionContainer } from './containers/about-section/about-section.container';
 import { SharedModule } from '../shared/shared.module';
+import { AboutSectionContainer } from './containers/about-section/about-section.container';
 import { GallerySectionContainer } from './containers/gallery-section/gallery-section.container';
+import { HeroSectionContainer } from './containers/hero-section/hero-section.container';
+import { LandingPageContainer } from './containers/landing-page.container';
+import { MissionSectionContainer } from './containers/mission-section/mission-section.container';
 
 @NgModule({
   declarations: [
@@ -17,6 +17,6 @@ import { GallerySectionContainer } from './containers/gallery-section/gallery-se
     GallerySectionContainer,
   ],
   imports: [CommonModule, LandingUiModule, SharedModule],
-  exports: [LandingPageContainer, GallerySectionContainer],
+  exports: [LandingPageContainer],
 })
 export class LandingPageModule {}

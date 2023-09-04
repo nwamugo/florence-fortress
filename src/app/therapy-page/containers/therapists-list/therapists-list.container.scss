@@ -1,0 +1,17 @@
+div.container {
+  background: linear-gradient(
+      #2d1e2f,
+      #2d1e2f,
+      #2d1e2f 90%,
+      ),
+      url(/assets/img/grainy.svg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+div.with-width {
+  width: 80rem;
+  margin-bottom: 12rem;
+  margin-left: 4.5rem;
+  padding-top: 4.5rem;
+}

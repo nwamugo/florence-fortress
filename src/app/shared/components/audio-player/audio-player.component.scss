@@ -1,0 +1,56 @@
+div.audio-player {
+  background: #F5C2C2;
+  width: 120%;
+  text-align: center;
+  display: flex;
+}
+
+div.play-pause-btn {
+  background-size: cover;
+  cursor: pointer;
+  width: 7.5rem;
+  height: 7.5rem;
+  margin: 2rem 0 2rem 2rem;
+}
+.play-icon {
+  background-image: url(
+    'https://cdn.fastly.picmonkey.com/content4/previews/arrows_2/arrows_2_44_550.png'
+    );
+}
+.pause-icon {
+  background-image: url(
+    'https://img.icons8.com/ios/452/circled-pause.png'
+    );
+}
+
+div.music-detail {
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  flex: 3;
+}
+
+progress {
+  width: 90%;
+  cursor: pointer;
+}
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  color: #2d1e2f;
+  height: .5rem;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: white;
+  border-radius: .2rem;
+  border: .1rem solid lighten(#acacac, 20%);
+  color: #2d1e2f;
+}
+progress::-webkit-progress-value {
+  background-color: #2d1e2f;
+}
+
+p {
+  font-size: 1.6rem;
+}

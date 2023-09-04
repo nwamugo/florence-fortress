@@ -1,0 +1,34 @@
+<audio #player>
+  <source
+    [src]="currentFile?.opusUrl"
+    type="audio/ogg"
+  >
+  <source
+    [src]="currentFile?.mp3Url"
+    type="audio/mpeg"
+  >
+</audio>
+
+<div class="audio-player">
+  <div
+    class="play-pause-btn"
+    [ngClass]="nowPlaying ? 'pause-icon' : 'play-icon'"
+    (click)="playOrPause()"
+  ></div>
+  <div class="music-detail">
+    <p>
+      {{ currentFile?.name }}
+      <br><small>by</small><br>
+      {{ currentFile?.artist }}
+    </p>
+    <span>
+      <progress
+        #progressBar
+        [value]="progressValue"
+        [max]="songDuration"
+        (click)="seek($event)"
+      ></progress>
+    </span>
+    <br>
+  </div>
+</div>
