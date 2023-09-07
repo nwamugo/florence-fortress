@@ -1,0 +1,45 @@
+div.container {
+  background-color: #0F1020;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+ul.navigation {
+  display: flex;
+  margin: 0;
+  padding: .5em;
+  list-style-type: none;
+  border-radius: .2em;
+}
+
+ul.navigation > li {
+  margin-top: 0;
+}
+ul.navigation > li > a {
+  display: block;
+  padding: .5em 1em;
+  color: #f17e6b;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navigation > li + li {
+  margin-left: 1.5em;
+}
+.navigation > .nav-right {
+  margin-left: auto;
+}
+
+ul.navigation > li > a:hover {
+  background-color: #F7C1BB;
+  color: #5a2f28;
+}
+ul.navigation > li > a.active:hover {
+  color: #5a2f28;
+}
+ul.navigation > li > a.active {
+  color: #F9F1F9;
+}
