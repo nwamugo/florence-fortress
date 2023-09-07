@@ -5,13 +5,18 @@ import { LandingPageContainer } from './landing-page/containers/landing-page.con
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: LandingPageContainer
   },
   {
     path: 'therapy',
     loadChildren: () =>
       import('./therapy-page/therapy-page.module').then(m => m.TherapyPageModule)
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'home',
   },
 ];
 
