@@ -82,10 +82,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "florence-fortress:build:production"
+              "buildTarget": "florence-fortress:build:production"
             },
             "development": {
-              "browserTarget": "florence-fortress:build:development"
+              "buildTarget": "florence-fortress:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -93,7 +93,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "florence-fortress:build"
+            "buildTarget": "florence-fortress:build"
           }
         },
         "test": {
