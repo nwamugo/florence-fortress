@@ -3,9 +3,10 @@ import { Component, ElementRef, OnInit,
 import { IMusicFile, musicFiles } from '../../models/music-file.model';
 
 @Component({
-  selector: 'app-audio-player',
-  templateUrl: './audio-player.component.html',
-  styleUrls: ['./audio-player.component.scss']
+    selector: 'app-audio-player',
+    templateUrl: './audio-player.component.html',
+    styleUrls: ['./audio-player.component.scss'],
+    standalone: false
 })
 export class AudioPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('player') player:

@@ -5,9 +5,10 @@ import {
 import { affirmations } from './../../models/markup-affirmations.model';
 
 @Component({
-  selector: 'app-sidebar',
-  templateUrl: './sidebar.container.html',
-  styleUrls: ['./sidebar.container.scss'],
+    selector: 'app-sidebar',
+    templateUrl: './sidebar.container.html',
+    styleUrls: ['./sidebar.container.scss'],
+    standalone: false
 })
 export class SidebarContainer implements OnInit, AfterViewInit, OnDestroy {
   @ViewChild('alternatingText') alternatingTextRef:

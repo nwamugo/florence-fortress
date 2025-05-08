@@ -1,9 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-image-card',
-  templateUrl: './image-card.component.html',
-  styleUrls: ['./image-card.component.scss']
+    selector: 'app-image-card',
+    templateUrl: './image-card.component.html',
+    styleUrls: ['./image-card.component.scss'],
+    standalone: false
 })
 export class ImageCardComponent implements OnInit {
   @Input()

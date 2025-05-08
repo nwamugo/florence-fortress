@@ -2,10 +2,11 @@ import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core
 import { TAboutInfo } from 'src/app/landing-page/models/about.model';
 
 @Component({
-  selector: 'app-story-slider',
-  templateUrl: './story-slider.component.html',
-  styleUrls: ['./story-slider.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'app-story-slider',
+    templateUrl: './story-slider.component.html',
+    styleUrls: ['./story-slider.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class StorySliderComponent implements OnInit {
   @Input() about!: readonly TAboutInfo[];

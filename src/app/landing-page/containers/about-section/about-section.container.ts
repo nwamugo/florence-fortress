@@ -3,9 +3,10 @@ import { TAboutInfo } from 'src/app/landing-page/models/about.model';
 import { OVERVIEW } from '../../models/constants/organization-info.constant';
 
 @Component({
-  selector: 'app-about-section',
-  templateUrl: './about-section.container.html',
-  styleUrls: ['./about-section.container.scss']
+    selector: 'app-about-section',
+    templateUrl: './about-section.container.html',
+    styleUrls: ['./about-section.container.scss'],
+    standalone: false
 })
 export class AboutSectionContainer implements OnInit {
   about: readonly TAboutInfo[] = OVERVIEW;

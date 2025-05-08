@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-gallery-section',
-  templateUrl: './gallery-section.container.html',
-  styleUrls: ['./gallery-section.container.scss']
+    selector: 'app-gallery-section',
+    templateUrl: './gallery-section.container.html',
+    styleUrls: ['./gallery-section.container.scss'],
+    standalone: false
 })
 export class GallerySectionContainer implements OnInit {
   gridItems = [1, 2, 3, 4, 5, 6]
