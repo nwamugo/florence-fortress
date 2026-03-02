@@ -17,8 +17,8 @@ div.placard {
   }
 
   button.reach-us {
-    background: #df678c;
-    color: #4c0c32;
+    background: #82495C;
+    color: #ffc1e6;
     border: none;
     box-shadow: -1rem 1.3rem 5rem -.1rem #F04465,;
     cursor: pointer;
@@ -40,9 +40,9 @@ div.placard {
     left: 0;
     direction: rtl;
     box-shadow:
-      -.7rem 0 1rem -.2rem #F04465,
-      -.4rem 0 .5rem 0 #f04465,
-      .7rem .7rem 1rem 0 #F04465,
+      -.7rem 0 1rem -.2rem #F3B3AA,
+      -.4rem 0 .5rem 0 #F3B3AA,
+      .7rem .7rem 1rem 0 #F3B3AA,
       .4rem .4rem .5rem 0 #F04465;
     transition: all .3s ease;
   }
@@ -63,7 +63,7 @@ div.mission-statement {
   top: 14.4rem;
 
   h3 {
-    color: #ED008C;
+    color: #632D47;
     font-weight: 400;
     font-size: 7rem;
     letter-spacing: 0.03em;
@@ -71,7 +71,7 @@ div.mission-statement {
   }
 
   p.statement {
-    color: #bf0a75;
+    color: #710043;
     font-family: 'NovaMono';
     font-weight: 400;
     font-size: 4rem;
